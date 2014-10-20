@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *textfield;
+
+- (IBAction)buttonclicked:(id)sender;
 
 @end
 

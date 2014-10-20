@@ -14,6 +14,7 @@
 		BCEC440119F0EA5D003E4D1B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEC440019F0EA5D003E4D1B /* Images.xcassets */; };
 		BCEC440419F0EA5D003E4D1B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEC440219F0EA5D003E4D1B /* LaunchScreen.xib */; };
 		BCEC441019F0EA5D003E4D1B /* test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEC440F19F0EA5D003E4D1B /* test1Tests.m */; };
+		BCEC441A19F0EC1D003E4D1B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEC441919F0EC1D003E4D1B /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BCEC440919F0EA5D003E4D1B /* test1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEC440E19F0EA5D003E4D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCEC440F19F0EA5D003E4D1B /* test1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1Tests.m; sourceTree = "<group>"; };
+		BCEC441919F0EC1D003E4D1B /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				BCEC43F819F0EA5D003E4D1B /* AppDelegate.m */,
 				BCEC43FA19F0EA5D003E4D1B /* ViewController.h */,
 				BCEC43FB19F0EA5D003E4D1B /* ViewController.m */,
+				BCEC441919F0EC1D003E4D1B /* ViewController.xib */,
 				BCEC43FD19F0EA5D003E4D1B /* Main.storyboard */,
 				BCEC440019F0EA5D003E4D1B /* Images.xcassets */,
 				BCEC440219F0EA5D003E4D1B /* LaunchScreen.xib */,
@@ -201,6 +204,7 @@
 			files = (
 				BCEC43FF19F0EA5D003E4D1B /* Main.storyboard in Resources */,
 				BCEC440419F0EA5D003E4D1B /* LaunchScreen.xib in Resources */,
+				BCEC441A19F0EC1D003E4D1B /* ViewController.xib in Resources */,
 				BCEC440119F0EA5D003E4D1B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 				BCEC441519F0EA5D003E4D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCEC441619F0EA5D003E4D1B /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				BCEC441819F0EA5D003E4D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
